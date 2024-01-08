@@ -1,4 +1,5 @@
 name = input("What is your name? ")
+age = int(input("What is your age? "))
 boolean = True
 while boolean:
   option = int(
@@ -16,6 +17,7 @@ while boolean:
   elif option == 4:
     print("Thanks for choosing option 4")
   elif option == 5:
+    print("Thank you for using our service! Goodbye and have a great day! ")
     boolean = False
   else:
     print("Please select a valid option.")
